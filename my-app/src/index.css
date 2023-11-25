@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script&family=EB+Garamond&display=swap');
+
+:root {
+  --color1: #3B2314 ;
+  --color2: #bed7c0 ;
+  --color3: #ea1e63;
+  --bgColor: #fce0d4;
+  --font1: 'Dancing Script', serif;
+  --font2: 'EB Garamond', cursive;
+  --font3: 'DM Serif Display', serif;
+}
+
+::selection{
+  color: var(--color3);
+  background-color: black;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Dancing Script', cursive, 'DM Serif Display', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bgColor);
+  max-width: 100vw;
+  overflow-x: hidden;
+}
